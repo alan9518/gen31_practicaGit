@@ -1,0 +1,15 @@
+$paragraphColor: rgb(133, 128, 128);
+
+main {
+    padding: 20px 15px;
+  }
+  
+  #cardErik {
+    .desc {
+      p {
+        color: $paragraphColor;
+        font-family: monospace;
+      }
+    }
+}
+
