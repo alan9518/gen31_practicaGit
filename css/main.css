@@ -124,4 +124,19 @@ main {
 
 #cardAlan .desc p {
   color: blue;
+}
+
+#cardManu .profile-info {
+  background-color: rgb(9, 54, 54);
+}
+#cardManu #colorcool {
+  color: aqua;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+#cardManu #colormascool {
+  color: rgb(204, 106, 106);
+}
+#cardManu .desc p {
+  color: green;
 }/*# sourceMappingURL=main.css.map */
