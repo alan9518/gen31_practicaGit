@@ -126,10 +126,6 @@ main {
   color: blue;
 }
 
-#cardAngel {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 #cardAngel .desc {
   color: #bdbdbd;
 }
