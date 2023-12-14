@@ -126,6 +126,14 @@ main {
   color: blue;
 }
 
+main {
+  padding: 20px 15px;
+}
+
+#cardLeo .desc p {
+  color: blue;
+}
+
 #cardAngel .desc {
   color: #bdbdbd;
 }
