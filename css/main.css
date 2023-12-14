@@ -20,6 +20,7 @@ body {
 .col {
   display: flex;
   flex-basis: 30%;
+  border-radius: 10px;
 }
 
 .profile-card {
@@ -29,6 +30,7 @@ body {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  border-radius: 10px;
 }
 .profile-card .profile-pic {
   border-radius: 50%;
@@ -124,6 +126,15 @@ main {
 
 #cardAlan .desc p {
   color: blue;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+#cardErik .desc p {
+  color: rgb(133, 128, 128);
+  font-family: monospace;
 }
 
 #cardManu .profile-info {
