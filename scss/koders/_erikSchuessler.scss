@@ -1,3 +1,5 @@
+$paragraphColor: rgb(133, 128, 128);
+
 main {
     padding: 20px 15px;
   }
@@ -5,7 +7,7 @@ main {
   #cardErik {
     .desc {
       p {
-        color: grey;
+        color: $paragraphColor;
         font-family: monospace;
       }
     }
