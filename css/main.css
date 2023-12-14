@@ -124,4 +124,12 @@ main {
 
 #cardAlan .desc p {
   color: blue;
+}
+
+#cardAngel .desc {
+  color: #bdbdbd;
+}
+#cardAngel .profile-info .profile-Pic {
+  top: -65px;
+  left: -126px;
 }/*# sourceMappingURL=main.css.map */
