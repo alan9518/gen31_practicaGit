@@ -190,4 +190,12 @@ main {
 
 #cardAleDominguez .desc p {
   color: pink;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+#cardJesiRei .desc p {
+  color: rgb(217, 164, 217);
 }/*# sourceMappingURL=main.css.map */
