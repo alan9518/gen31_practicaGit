@@ -132,6 +132,14 @@ main {
   padding: 20px 15px;
 }
 
+#Albert .desc p {
+  color: colorLetras;
+}
+
+main {
+  padding: 20px 15px;
+}
+
 #cardErik .desc p {
   color: rgb(133, 128, 128);
   font-family: monospace;
