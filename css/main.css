@@ -20,6 +20,7 @@ body {
 .col {
   display: flex;
   flex-basis: 30%;
+  border-radius: 10px;
 }
 
 .profile-card {
@@ -29,6 +30,7 @@ body {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  border-radius: 10px;
 }
 .profile-card .profile-pic {
   border-radius: 50%;
@@ -138,6 +140,30 @@ main {
   padding: 20px 15px;
 }
 
+#cardErik .desc p {
+  color: rgb(133, 128, 128);
+  font-family: monospace;
+}
+
+#cardManu .profile-info {
+  background-color: rgb(9, 54, 54);
+}
+#cardManu #colorcool {
+  color: aqua;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+#cardManu #colormascool {
+  color: rgb(204, 106, 106);
+}
+#cardManu .desc p {
+  color: green;
+}
+
+main {
+  padding: 20px 15px;
+}
+
 #cardAlexis .desc p {
   color: green;
 }
@@ -156,4 +182,12 @@ main {
 #cardAngel .profile-info .profile-Pic {
   top: -65px;
   left: -126px;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+#cardAleDominguez .desc p {
+  color: pink;
 }/*# sourceMappingURL=main.css.map */
