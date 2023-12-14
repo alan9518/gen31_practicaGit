@@ -124,4 +124,12 @@ main {
 
 #cardAlan .desc p {
   color: blue;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+#cardLeo .desc p {
+  color: blue;
 }/*# sourceMappingURL=main.css.map */
