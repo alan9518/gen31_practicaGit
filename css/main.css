@@ -174,4 +174,12 @@ main {
 #cardAngel .profile-info .profile-Pic {
   top: -65px;
   left: -126px;
+}
+
+main {
+  padding: 20px 15px;
+}
+
+#cardAleDominguez .desc p {
+  color: pink;
 }/*# sourceMappingURL=main.css.map */
