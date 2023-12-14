@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import "variables";
+@import "mixins";
+@import "common";
+/* de aqui para abajo se importan sus modulos */
+@import "koders/alanMedina";

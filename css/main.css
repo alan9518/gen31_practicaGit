@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.col {
+  display: flex;
+  flex-basis: 30%;
+}
+
+.profile-card {
+  background-color: #222222;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.profile-card .profile-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100px;
+  transition: all 0.4s;
+}
+.profile-card .img-responsive {
+  width: 100%;
+}
+.profile-card .profile-info {
+  color: #bdbdbd;
+  padding: 25px;
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+}
+.profile-card .profile-info h2 {
+  color: #e8e8e8;
+  letter-spacing: 4px;
+  padding-bottom: 12px;
+  margin-top: 16px;
+}
+.profile-card .profile-info span {
+  display: block;
+  font-size: 12px;
+  color: #4cb493;
+  letter-spacing: 2px;
+}
+.profile-card .profile-info a {
+  color: #4cb493;
+}
+.profile-card .profile-info i {
+  padding: 15px 35px 0px 35px;
+}
+.profile-card .profile-card:hover .profile-pic {
+  transform: scale(1.1);
+}
+.profile-card .profile-card:hover .profile-info hr {
+  opacity: 1;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 52%;
+  right: 52%;
+  bottom: 0;
+  background: #ffffff;
+  border-radius: 50%;
+  height: 3px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.profile-card:hover .hvr-underline-from-center:before,
+.profile-card:focus .hvr-underline-from-center:before,
+.profile-card:active .hvr-underline-from-center:before {
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #cecece;
+  border-radius: 0;
+}
+
+/* de aqui para abajo se importan sus modulos */
+main {
+  padding: 20px 15px;
+}
+
+#cardAlan .desc p {
+  color: blue;
+}/*# sourceMappingURL=main.css.map */
