@@ -135,4 +135,12 @@ main {
 #cardErik .desc p {
   color: rgb(133, 128, 128);
   font-family: monospace;
+}
+
+#cardAngel .desc {
+  color: #bdbdbd;
+}
+#cardAngel .profile-info .profile-Pic {
+  top: -65px;
+  left: -126px;
 }/*# sourceMappingURL=main.css.map */
